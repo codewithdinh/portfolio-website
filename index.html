@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinh Bui</title>
+    <link rel="icon" href="images/avatar.ico" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Dinh Bui</h1>
+        <nav>
+            <button class="menu-button" id="menuButton">
+                <span class="menu-icon">&#9776;</span>
+            </button>
+            <ul id="navMenu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a Computer Science major at the University of Houston. I have a passion for building technologies and software applications.</p>
+            <p>Aside from the digital world, I am a former Junior Vietnamese Tennis Player and currently teaching young passionate players about the sport.</p>
+            <p>Welcome to my portfolio!</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="../images/fuelapp.png" alt="Project 1">
+                    <div class="content">
+                        <h3>WellSpringOil</h3>
+                        <p>Immersive client fuel quote website. Allow user to create account, get fuel quote based on location, retrieve fuel quote history and customer information.</p>
+                        <a href="https://github.com/codewithdinh/WellSpring-Oil" target="_blank" class="button">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="../images/flashcard.png" alt="Project 2">
+                    <div class="content">
+                        <h3>Trivia Madness</h3>
+                        <p>A sleek and interactive web app features dynamic flashcards that display text, images, and category-based themes for a visually rich study experience.</p>
+                        <a href="https://github.com/codewithdinh/flash-card" target="_blank" class="button">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="../images/tennishub.png" alt="Project 3">
+                    <div class="content">
+                        <h3>TennisHub</h3>
+                        <p>TennisHub is your ultimate resource for tennis enthusiasts of all levels</p>
+                        <a href="https://github.com/codewithdinh/community-board" target="_blank" class="button">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="poem">
+                <h2>Random Poem Generator</h2>
+                <div class="poem-generator">
+                <h3>Take a break and be poetic!</h3>
+                <form id="poemForm">
+                    <p>Enter the name of a celebrity: <input type="text" id="input1" placeholder="e.g. Tom Cruise" required></p>
+                    <p>Enter the name of a fish: <input type="text" id="input2" placeholder="e.g. Salmon" required></p> 
+                    <div class="poem-buttons">
+                        <button type="button" id="resetButton" class="button">Reset</button>
+                        <button type="submit" class="button">Generate Poem</button>
+                    </div>
+                </form>
+
+                <div id="poemOutput" class="poem-output">
+                    <!-- The generated poem will appear here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">UI/UX Design</span>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out if you'd like to collaborate on projects or just want to connect!</p>
+            <div class="contact-icons">
+                <a href="mailto:thiendinhbui@yahoo.com.vn" target="_blank" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/codewithdinh" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/dbui02/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dinh Bui. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
